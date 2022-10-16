@@ -1,0 +1,275 @@
+::-webkit-scrollbar {
+    width: 10px;
+    height: 0px;
+    padding-right: 2px;
+  
+  }
+  ::-webkit-scrollbar{
+    width: 5px;
+    padding-right: 2px;
+  
+  }
+  
+  .card-body{
+    /* background-color: rgb(248, 248, 248); */
+    width: 100%;
+  }
+  .card-c{
+    width:95%; margin-left: auto; margin-right: auto; border:none;
+  }
+  
+  .home-divs-display{
+    display: inline-flex;
+  }
+  
+  .home-div{
+    width: auto;
+    border:none;
+    margin-right: auto;
+    margin-bottom: auto;
+  
+  }
+  
+  .home-header-div{
+    width: auto;
+    border:none;
+    margin-right: auto;
+    margin-bottom: auto;
+    border-radius: 0px;
+    border-bottom: 1px solid rgb(237, 237, 237);
+    /* background-color: rgb(248, 248, 248); */
+  }
+  .card-body-c{
+    display: inline-flex;
+  }
+  
+  .main-card-body-c{
+    display: inline-flex;
+    top:-10px;
+    position: relative;
+    height: auto;
+    width: 93vw;
+    padding:0;
+    /* border-bottom: 1px solid rgb(237, 237, 237); */
+  }
+  
+  .left-align-header-title{
+    width:30%;
+    position:relative;
+    top: -10px;
+    cursor: pointer;
+    /* background-color: rgb(248, 248, 248); */
+  
+  }
+  
+  .right-align-header-icons{
+    width:70%;
+    /* margin-left: auto; margin-right: auto; */
+    display:inline-flex;
+    padding-bottom: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+  
+  }
+  
+  .header-icons{
+    padding-left: 30px;
+    padding-right: 30px;
+    display: block;
+    text-align: center;
+    font-size: 11px;
+    color: #818181;
+    cursor: pointer;
+  }
+  
+  .position-header-icons{
+    position:relative; top: -19px; left: -3px;
+  }
+  
+  .left-align-title{
+    width:90%;
+  }
+  .right-align-notifications{
+    width:10%; text-align: right;
+  }
+  
+  .position-notification{
+    position:relative; top: -19px; left: -3px;
+  }
+  
+  .card-header-c{
+    font-weight:lighter;
+    font-size: 14px;
+  }
+  .title{
+    font-size: 17px;
+  }
+  .content-font{
+    font-size: 15px;
+  }
+  
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto auto auto;
+    grid-auto-rows: 150px;
+    grid-gap: 10px;
+  }
+  
+  .grid-container > div {
+    background-color: rgb(255, 254, 254);
+  }
+  
+  .break-div{
+    display: none;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgb(212, 212, 212);
+    border-radius: 6px;
+    padding-right: 2px;
+  }
+  
+  
+  body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  
+  .sidenav {
+    user-select: none;
+    text-align: left;
+    overflow: scroll;
+    padding-left: 0px;
+    margin-top: 120px;
+    height: 80%;
+    width: 93vw;
+    margin-left: 70px;
+    /* position: fixed; */
+    z-index: 2;
+    top: 0;
+    left: 0;
+    background-color: #3e94d62a;;
+    overflow-x: hidden;
+    padding-top: 50px;
+    padding-left:20px;
+    padding-right: 20px
+  }
+  
+  .sidenav a {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px 8px 15px 8px;
+    text-decoration: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #818181;
+    display: block;
+  }
+  
+  .svg-custom{
+    fill:green;
+    padding: 5px 5px;
+  }
+  
+  .sidenav a:focus{
+    background-color: #818181;
+    border-left: 1px solid grey;
+  }
+  .sidenav a:hover{
+    border-right: 6px solid rgb(68, 152, 188);
+    background-color: white;
+  }
+  
+  .sidenav-header{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    user-select: none;
+    text-align: left;
+    height: 50px;
+    width: 95%;
+    margin-left: 70px;
+    margin-top: 50px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(255, 255, 255);
+    padding-top: 10px;
+  }
+  
+  #customers {
+    width: 100%;
+    font-size: smaller;
+  }
+  
+  #customers th {
+    padding: 5px;
+  }
+  
+  
+  #customers tr:nth-child(even){background-color: #f4f4f4;}
+  
+  #customers tr:hover {background-color: #ddd;}
+  
+  #customers th {
+    text-align: left;
+    /* color: rgb(74, 74, 74); */
+  }
+  
+  #customers td{
+    cursor: pointer;
+  }
+  .student-card-home-notification{
+    color: rgb(22, 123, 156);
+    cursor: pointer;
+  }
+  
+  .student-card-home-notification :hover{
+    color: rgb(0, 191, 255);
+  }
+  
+  .sidenav-header h1{
+    padding-left: 20px;
+    font-weight: lighter;
+    margin-top: 10px;
+    font-size: 25px;
+  }
+  
+  .main {
+    margin-left: 160px; /* Same as the width of the sidenav */
+    font-size: 28px; /* Increased text to enable scrolling */
+    padding: 0px 10px;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .grind-containter{grid-template-columns: repeat(1, 1fr);}
+    .sidenav {padding-top: 15px;}
+    .sidenav {padding-bottom: 15px;}
+    .sidenav a {font-size: 10px;}
+    .sidenav {display: none;}
+    .sidenav-header {display: none;}
+  }
+  
+  @media screen and (max-width: 450px) and (min-width: 0px){
+    .grid-container{grid-template-columns: repeat(1, 1fr);}
+    .home-divs-display{display: block;}
+    .home-div{width: 85%; font-size: 12px;}
+    .sidenav{padding-left: 5px;}
+    .card-header-c{ font-size: 16px;}
+    .break-div{ display:block;}
+    .left-align-header-title h1{font-size: 20px; font-weight:lighter; padding-left: 0; text-align: center;}
+    .left-align-header-title {width: 90%; height:fit-content;}
+    .main-card-body-c{border-bottom:none;   display:contents;}
+    .right-align-header-icons{width:100%;}
+  }
+  
+  @media screen and (max-width: 640px){
+    .grid-container{grid-template-columns: repeat(3, 1fr);}
+    .home-divs-display{display: block;}
+    .home-div{width: 100%; font-size: 17px; border-radius: 5px;}
+    .sidenav{padding-left: 5px;}
+    .card-header-c{ font-size: 16px;}
+    .break-div{ display:block;}
+  }

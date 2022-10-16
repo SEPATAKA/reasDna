@@ -1,0 +1,159 @@
+<div class="manage-student-inner-nav-container">
+    <div style="display:inline-flex">
+        <div class="manage-student-inner-nav-icon-positioner messages" data-tooltip="Messages">
+            <svg xmlns="http://www.w3.org/2000/svg" height="24" fill="rgb(210, 165, 26)" width="24"><path d="M4 20q-.825 0-1.412-.587Q2 18.825 2 18V6q0-.825.588-1.412Q3.175 4 4 4h16q.825 0 1.413.588Q22 5.175 22 6v12q0 .825-.587 1.413Q20.825 20 20 20Zm8-7L4 8v10h16V8Zm0-2 8-5H4ZM4 8V6v12Z"/></svg>
+        </div>
+        <div class="manage-student-inner-nav-icon-positioner goals" data-tooltip="Goals and Feedback">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="green" height="24" width="24"><path d="M5 21V4h9l.4 2H20v10h-7l-.4-2H7v7Z"/></svg>
+        </div>
+        <div class="manage-student-inner-nav-icon-positioner files" data-tooltip="Submitted Files">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="purple" height="24" width="24"><path d="M8 18h8v-2H8Zm0-4h8v-2H8Zm-2 8q-.825 0-1.412-.587Q4 20.825 4 20V4q0-.825.588-1.413Q5.175 2 6 2h8l6 6v12q0 .825-.587 1.413Q18.825 22 18 22Zm7-13V4H6v16h12V9ZM6 4v5-5 16V4Z"/></svg>
+        </div>
+        <div class="manage-student-inner-nav-icon-positioner appointments" data-tooltip="Appointments">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="rgb(138, 124, 1)" height="24" width="24"><path d="M5 21q-.825 0-1.413-.587Q3 19.825 3 19V5q0-.825.587-1.413Q4.175 3 5 3h4.2q.325-.9 1.088-1.45Q11.05 1 12 1t1.713.55Q14.475 2.1 14.8 3H19q.825 0 1.413.587Q21 4.175 21 5v14q0 .825-.587 1.413Q19.825 21 19 21Zm0-2h14V5H5v14Zm2-2h7v-2H7Zm0-4h10v-2H7Zm0-4h10V7H7Zm5-4.75q.325 0 .538-.213.212-.212.212-.537 0-.325-.212-.538-.213-.212-.538-.212-.325 0-.537.212-.213.213-.213.538 0 .325.213.537.212.213.537.213ZM5 19V5v14Z"/></svg>
+        </div>  
+    </div>
+</div>
+
+<div class="manage-student-home-container" style="width:70%">
+    <div class="manage-student-home-container-card">
+        <div class="card" style="background-color:rgb(243, 243, 243); border:none">
+            <caption style="background-color:transparent; text-align: center; user-select: none;">
+                <img src="../../../assets/students/manage-student/add_circle_FILL1_wght400_GRAD0_opsz24.svg" alt="Add Goal Logo" style="cursor: pointer; transition: transform 1s; user-select:none">New Goal Form
+            </caption>
+            <div style="margin-left:auto; margin-right:auto; width:95%">
+                <div class="alert alert-success" role="alert">
+                    <strong>Success:</strong> Goal Created Successfully
+                </div>
+            </div>
+            <div style="margin-left:auto; margin-right:auto; width:95%">
+                <div class="alert alert-danger">
+                    <strong>Error:</strong> Something Went Wrong
+                </div>
+            </div>
+            <div style="border-radius: 20px; background-color: white; position:relative; width:95%; margin-left:auto; margin-right:auto; ">
+                <div card="card " style="border:none">
+                    <div class="card-header" style="background-color: rgb(178, 231, 178); color: darkgreen; border:none">
+                        Set New Goal
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item" style="border:none">
+                            <input class="form-control input_table" placeholder="Goal Title" arial-label="Acceptance Criteria" aria-describedby="basic-addon2">
+                            <div>
+                                <br>
+                                <div class="alert alert-danger" role="alert">
+                                    <strong>Error:</strong> Goal Title is Missing
+                                </div>
+                            </div>
+                        </li>
+                        <li class="list-group-item">
+                            <div class="contianer">
+                                <div class="row">
+                                    <div class="col-sm">
+                                        <h3 class="card-title create-goal-ul-li">
+                                            Start Date
+                                        </h3>
+                                         <br>
+                                        <input type="datetime-local">
+                                        <div>
+                                            <br>
+                                            <div class="alert alert-danger" role="alert">
+                                                <strong>Error:</strong> Invalid Start Date
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-sm">
+                                        <h3 class="card-title" style="color: #919191;font-size:11px; margin: 0 0 -5px;">
+                                            End Date
+                                        </h3>
+                                         <br>
+                                        <input type="datetime-local">
+                                        <div>
+                                            <br>
+                                            <div class="alert alert-warning" role="alert">
+                                                <strong>Warning:</strong> Enter Start Date & Time First
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <br>
+                                            <div class="alert alert-danger" role="alert">
+                                                <strong>Error:</strong> Invalid End Date
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <br>
+                        </li>
+                        <li class="list-group-item" style="border:none">
+                            <h3 class="card-title create-goal-ul-li" >
+                                Goal Description
+                            </h3>
+                            <div class="mb-3" style="width:98%; margin-left: auto; margin-right:auto">
+                                <textarea class="form-control input_table" style="resize:none;" rows="6" placeholder="Goal Description..."></textarea>
+                                <div>
+                                    <br>
+                                    <div class="alert alert-danger">
+                                        <strong>Error</strong> Enter Goal Details
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="list-group-item" style="border:none">
+                            <h3 class="card-title create-goal-ul-li">
+                                Acceptance Criteria
+                            </h3>
+                            <br>
+                            <div class="input-group mb-3">
+                                <input type="text" class="form-control" palceholder="Acceptance Criteria" arial-lable="Acceptance Criteria" aria-describedby="basic-addon2">
+                                <div class="input-group-append">
+                                    <button class="btn btn-outline-secondary add-acceptance-criteria-button" type="button">
+                                        <span class="badge" style="background-color: darkgreen; border-radius:50px"></span>
+                                        Add
+                                    </button>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="alert alert-danger" roler="alert">
+                                    <strong>Error: </strong> Invalid Acceptance Criteria
+                                </div>
+                            </div>
+                            <div class="container-flud" style="padding: 0 0 0 0; border:none; height: 150px; overflow: scroll">
+                                <div class="container" style="border:none">
+                                    <div class="row" style="border:none; --bs-gutter-x: 0rem">
+                                        <ul class="lsit-group" style="padding: 0 0 0 0; border:none">
+                                            <li class="list-group-item" style="padding: 0 0 0 0; border:none">
+                                                <div class="input-group mb-3" style="border-bottom: 1px solid rgb(212, 212, 212);">
+                                                    <input type="text" readonly disabled class="form-control general-remove-active-status" status="cursor: default; border:none; background-color: transparent; border-radius: 8px; border-bottom-right-radius: 0; border-top-right-radius: 0; color: #404242" placeholder="Recipients's username" arial-label="Recipeint's username" airia-describedby="basic-addon2">
+
+                                                    <div class="input-group-append">
+                                                        <button class="btn btn-outline-secondary add-acceptance-criteria-button" type="button">
+
+                                                            Add
+                                                        </button>
+                                                    </div>
+
+                                                </div>
+
+                                            </li>
+
+                                        </ul>
+
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="manage-student-home-container-card">
+        .
+    </div>
+</div>
